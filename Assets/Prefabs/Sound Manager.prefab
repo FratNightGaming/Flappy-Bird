@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7205170424425604506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7205170424425604508}
+  - component: {fileID: 7205170424425604509}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7205170424425604508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7205170424425604506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7205170424425604509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7205170424425604506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a881f8820610925498df721a0756a988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: c3f59141f83a24ec899c96c1b00b00bf, type: 3}
+    source: {fileID: 0}
+    name: Die
+    volume: 0.5
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 51ce0589b6c9e40d3b3ac68d122cf3ba, type: 3}
+    source: {fileID: 0}
+    name: Hit
+    volume: 0.5
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 3523e883c885c47019cd9b1bcc2e51b3, type: 3}
+    source: {fileID: 0}
+    name: Point
+    volume: 0.5
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 8cae1e0b9d55247f69edd9a27aea3d15, type: 3}
+    source: {fileID: 0}
+    name: Transition
+    volume: 0.5
+    pitch: 1
+  - clip: {fileID: 8300000, guid: b118e89e1936044609ea10a46d2deca5, type: 3}
+    source: {fileID: 0}
+    name: Flap
+    volume: 0.5
+    pitch: 1
